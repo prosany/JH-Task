@@ -67,14 +67,12 @@ orders
 
 ```
 /orders-using-aggregation
-
 ```
 
 - Get Using Find (Bangla Style)
 
 ```
-"/orders-using-find
-
+/orders-using-find
 ```
 
 - Get All The Collections
