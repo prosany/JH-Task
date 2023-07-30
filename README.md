@@ -1,5 +1,7 @@
 # Aggregation Task
 
+## Explanation
+
 ```
 orders
     .aggregate([
@@ -57,4 +59,26 @@ orders
         // সবার শেষে আমি কি কি দেখাতে চাই টা সেন্ড করলাম $project দিয়ে ।
     ]).toArray();
 
+```
+
+## Routes
+
+- Get Using Aggregation
+
+```
+/orders-using-aggregation
+
+```
+
+- Get Using Find (Bangla Style)
+
+```
+"/orders-using-find
+
+```
+
+- Get All The Collections
+
+```
+/database
 ```
