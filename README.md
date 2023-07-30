@@ -1,6 +1,7 @@
 # Aggregation Task
 
-````const result = await orders
+```
+const result = await orders
           .aggregate([
             { $unwind: "$product" },
             {
@@ -46,5 +47,5 @@
                 "product.price": 1,
               },
             },
-          ])```
-````
+          ])
+```
